@@ -1,3 +1,20 @@
+---
+title:  "[Spring Study]  -회원 관리 예제(1)"
+excerpt: "백엔드 개발 설계"
+
+categories:
+  - Spring
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-03
+last_modified_at: 2020-08-03
+---
+
+
 **Spring Study**  - 회원 관리 예제(1) - 백엔드 개발 설계
 
 - **비즈니스 요구사항**
