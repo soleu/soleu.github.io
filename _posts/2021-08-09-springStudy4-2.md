@@ -2,17 +2,16 @@
 title:  "[Spring Study]  -스프링 DB 기술(2)"
 excerpt: "JDBC Template 연결 방식 구현 "
 
-categories: Spring
+categories: 
+  - Spring
 tags:
   - [Spring, SpringBoot,H2,DB,Database]
-layout : post
+
 toc: true
 toc_sticky: true
  
 date: 2021-08-09
-last_modified_at: 2020-08-09
-
-
+last_modified_at: 2021-08-09
 ---
 
 스프링 DB 기술 -JDBC Template 연결 방식 구현
