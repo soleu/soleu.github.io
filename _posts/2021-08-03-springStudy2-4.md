@@ -1,5 +1,5 @@
 ---
-title:  "[Spring Study]  -회원 관리 예제(3)"
+title:  "[Spring Study]  -회원 관리 예제(4)"
 excerpt: "service 클래스 생성"
 
 categories:
