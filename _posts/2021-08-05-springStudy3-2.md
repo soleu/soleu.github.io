@@ -1,4 +1,23 @@
-테스트 케이스 실행하기 
+---
+
+title:  "[Spring Study]  - 테스트 케이스 작성(2) "
+excerpt: "테스트 케이스 실행하기"
+
+categories:
+
+  - Spring
+    tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+
+date: 2021-08-05
+last_modified_at: 2020-08-05
+
+---
+
+테스트 케이스 실행하기
 
 - 테스트 코드는 빌드에 포함되지 않음.
 
@@ -49,7 +68,6 @@ ctrl + shift + T : create test
 ```
 
 ```java
-
         //when
         memberService.join(member1);
         //콤마 뒤를 실행할건데, 에러가 나면 에러코드를 출력해라
@@ -60,10 +78,3 @@ ctrl + shift + T : create test
 ```
 
 when 문에서 try-catch문을 사용해도 되지만, 밑처럼 spring의 문법을 사용하여 표현하는게 효율적이다.
-
-
-
-
-
-
-
