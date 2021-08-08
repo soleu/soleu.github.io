@@ -1,3 +1,22 @@
+---
+
+title:  "[Spring Study]  - 회원관리 예제(4)"
+excerpt: "테스트 케이스 실행하기"
+
+categories:
+
+  - Spring
+    tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+
+date: 2021-08-06
+last_modified_at: 2020-08-06
+
+---
+service 클래스 생성클래스
 - service 클래스 생성
   - 클래스 이름 : **비즈니스 관련** 이름을 사용해야 함.(ex: join, findMembers)
   - ​
