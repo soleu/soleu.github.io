@@ -1,4 +1,22 @@
-회원 리포지토리 테스트 케이스 작성 법
+---
+title:  "[Spring Study]  - 테스트 케이스 작성(1) "
+excerpt: "회원 리포지토리 테스트 케이스 작성법"
+
+categories:
+  - Spring
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-03
+last_modified_at: 2020-08-03
+
+
+---
+
+회원 리포지토리 테스트 케이스 작성법
 
 - 테스트 방법
 
@@ -27,16 +45,16 @@
       public void save(){
           Member member =new Member();
           member.setName("spring");
-
+  
           repository.save(member);
-
+  
           Member result=repository.findById(member.getId()).get();//optional 에서 꺼낼때는 .get()
           Assertions.assertEquals(member,result);//두개가 동일한지 확인
           //assertThat(member).isEqualTo(result);//위와 동일한 방법이나, 요즘 쓰는 방식
       }
   ```
 
-  ​
+  
 
   주의할 점) 
 
@@ -57,4 +75,3 @@
 
     - 개발 -> 테스트 : 일반적
     - 테스트 -> 개발 : Test 주도 개발 (TDD)
-    - ​
