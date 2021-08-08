@@ -12,6 +12,7 @@ toc_sticky: true
 date: 2021-08-09
 last_modified_at: 2020-08-09
 
+
 ---
 
 스프링 DB 기술 -데이터베이스 설치
@@ -36,19 +37,19 @@ last_modified_at: 2020-08-09
 
     - 설치 후,h2 console 앱 클릭
 
-      ![image-20210809021258685](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210809021258685.png)
+      ![image-20210809021258685](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809021258685.png)
 
       ![image-20210809021526157](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809021526157.png)
 
     - 연결을 누르면, DB 생성
 
-      ![image-20210809021715350](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809021715350.png)
+      ![image-20210809021715350](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809021715350.png)
 
     - `~/test.mv.db` 파일 생성 확인
 
     - 이후부터는 `jdbc:h2:tcp://localhost/~/test` 이렇게 접속
 
-      ![image-20210809022107755](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809022107755.png)
+      ![image-20210809022107755](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809022107755.png)
 
       : 파일에 직접 접근하는게 아니라 통해서 접근하게 해서 여러 곳에서 접근할 수 있도록 함.
 
@@ -59,7 +60,7 @@ last_modified_at: 2020-08-09
   - SQL문을 작성하고 실행하면 결과를 바로 확인할 수 있다. 
   - member 테이블 생성하기
 
-  ![image-20210809022518302](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809022518302.png)
+  ![image-20210809022518302](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809022518302.png)
 
   ```sql
   drop table if exists member CASCADE; //table 생성(이미 있을시엔 작성 X)
@@ -75,7 +76,7 @@ last_modified_at: 2020-08-09
 
   
 
-  ![image-20210809022948428](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809022948428.png)
+  ![image-20210809022948428](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809022948428.png)
 
   이런 식으로 DB안에 데이터 저장, 조회이 가능하다.
 
@@ -83,7 +84,7 @@ last_modified_at: 2020-08-09
 
 참고 사항) 
 
-![image-20210809023253857](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809023253857.png)
+![image-20210809023253857](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809023253857.png)
 
 프로젝트 파일에도 sql 폴더로 따로 관리해주면 파일 내용을 쉽게 관리할 수 있다.
 
