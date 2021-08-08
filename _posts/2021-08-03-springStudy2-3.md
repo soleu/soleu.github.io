@@ -1,5 +1,5 @@
 ---
-title:  "[Spring Study]  - 테스트 케이스 작성(1) "
+title:  "[Spring Study]  - 회원관리 예제(3) "
 excerpt: "회원 리포지토리 테스트 케이스 작성법"
 
 categories:
