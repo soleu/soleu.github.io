@@ -1,6 +1,6 @@
 ---
 
-title:  "[Spring Study]  - 회원관리 예제(4)"
+title:  "[Spring Study]  - 회원관리 예제(5)"
 excerpt: "테스트 케이스 실행하기"
 
 categories:
