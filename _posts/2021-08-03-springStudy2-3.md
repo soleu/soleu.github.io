@@ -1,3 +1,20 @@
+---
+title:  "[Spring Study]  - 회원관리 예제(3) "
+excerpt: "회원관리 예제 - 웹 MVC 개발"
+
+categories:
+  - Spring
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-03
+last_modified_at: 2020-08-03
+
+---
+
 회원관리 예제 - 웹 MVC 개발
 
 - 회원 웹 기능 -홈 화면 추가
