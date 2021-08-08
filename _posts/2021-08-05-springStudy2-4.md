@@ -1,19 +1,18 @@
 ---
-
-title:  "[Spring Study]  -  회원관리 예제(4)"
+title:  "[Spring Study]  - 회원관리 예제(4) "
 excerpt: "테스트 케이스 실행하기"
 
 categories:
-
   - Spring
-    tags:
+tags:
   - [Spring, SpringBoot]
 
 toc: true
 toc_sticky: true
-
+ 
 date: 2021-08-05
 last_modified_at: 2020-08-05
+
 
 ---
 
