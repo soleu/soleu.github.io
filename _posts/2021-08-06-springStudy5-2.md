@@ -19,7 +19,7 @@ last_modified_at: 2021-08-06
 service 클래스 생성클래스
 - service 클래스 생성
   - 클래스 이름 : **비즈니스 관련** 이름을 사용해야 함.(ex: join, findMembers)
-  - ​
+  - 
 
 
 
@@ -48,8 +48,4 @@ result.ifPresent(member1 -> {//optional를 통한 메서드
 이런식으로 정리 할 수 있음
 
 위 코드와 같이, 한 로직만 있는 코드라면 메서드로 묶어도 좋음
-
-```
-
-```
 

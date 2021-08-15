@@ -38,7 +38,7 @@ last_modified_at: 2021-08-09
 
       ![image-20210809021258685](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809021258685.png)
 
-      ![image-20210809021526157](C:/Users/%EC%9D%B4%EC%86%94/AppData/Roaming/Typora/typora-user-images/image-20210809021526157.png)
+      ![image-20210809021526157](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210809021526157.png)
 
     - 연결을 누르면, DB 생성
 

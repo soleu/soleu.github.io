@@ -16,7 +16,7 @@ last_modified_at: 2021-07-27
 
 1. External Libaries  폴더 확인
 
-![image-20210727012246022](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727012246022.png)
+![image-20210727012246022](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727012246022.png)
 
 내가 설정하지 않은 라이브러리들이 많이 포함되어있다. 
 
@@ -26,7 +26,7 @@ last_modified_at: 2021-07-27
 
 (spring core까지 가져오게되어 개발자가 아주 편리해졌다.)
 
-![image-20210727012634651](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727012634651.png)
+![image-20210727012634651](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727012634651.png)
 
 오른쪽 위에 "gradle"을 눌러보면, 의존관계를 확인할 수 있다.
 

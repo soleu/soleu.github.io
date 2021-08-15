@@ -29,11 +29,11 @@ last_modified_at: 2021-08-03
 
 *일반적인 웹 애플리케이션 계층 구조*
 
-![image-20210803022419713](C:\Users\이솔\OneDrive - catholic.ac.kr\바탕 화면\image-20210803022419713.png)
+![image-20210803022419713](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803022419713.png)
 
 *클래스 의존관계*
 
-![image-20210803022607051](C:\Users\이솔\OneDrive - catholic.ac.kr\바탕 화면\image-20210803022607051.png)
+![image-20210803022607051](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803022607051.png)
 
 - 아직 데이터 저장소가 선정되지 않아서, 우선 인터페이스로 구현 클래스를 변경할 수 있도록 설계
 - 데이터 저장소는 RDB,NoSQL 등등 다양한 저장소를 고민중인 상황으로 가정

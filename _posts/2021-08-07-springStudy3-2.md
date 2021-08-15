@@ -73,7 +73,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
   
 
-  ![image-20210807004953385](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210807004953385.png)
+  ![image-20210807004953385](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210807004953385.png)
 
   HelloSpringApplication 경로에 SpringConfig 클래스를 생성한다.
 

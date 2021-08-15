@@ -36,7 +36,7 @@ Hello
 
 다시 HelloSpringApplication을 run 하면, 로컬에서 실행화면이 바뀜
 
-![image-20210727014755694](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727014755694.png)
+![image-20210727014755694](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727014755694.png)
 
 2. thymeleaf 템플릿 엔진 사용방법
 
@@ -46,7 +46,7 @@ Hello
 
    - resources->templates->hello.html 생성
 
-     ![image-20210727020528837](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727020528837.png)
+     ![image-20210727020528837](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727020528837.png)
 
    ```
    package hello.hellospring.controller;
@@ -81,7 +81,7 @@ Hello
 
    localhost:8080/hello의 경로로 다시 실행하면 data의 value인 "hello!!"가 뒤에 추가된것을 확인할 수 있다.
 
-   ![image-20210727020940722](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727020940722.png)
+   ![image-20210727020940722](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727020940722.png)
 
 -> 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버(`viewResolver`)가 화면을 찾아서 처리한다.
 

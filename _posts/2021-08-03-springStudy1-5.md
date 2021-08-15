@@ -42,7 +42,7 @@ last_modified_at: 2021-08-03
 
   1. 정적 컨텐츠
 
-     ![image-20210803002006013](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803002006013.png)
+     ![image-20210803002006013](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803002006013.png)
 
      
 
@@ -52,7 +52,7 @@ last_modified_at: 2021-08-03
 
   해당 경로로 들어가면 연결 됨
 
-![image-20210803002141082](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803002141082.png)
+![image-20210803002141082](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803002141082.png)
 
 2. MVC 와 템플릿 엔진
 
@@ -95,7 +95,7 @@ last_modified_at: 2021-08-03
 
 ![image-20210803015418611](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803015418611.png)
 
-![image-20210803015435753](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803015435753.png)
+![image-20210803015435753](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803015435753.png)
 
 
 
@@ -131,7 +131,7 @@ last_modified_at: 2021-08-03
 
    
 
-![image-20210803020638465](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803020638465.png)
+![image-20210803020638465](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020638465.png)
 
 
 
@@ -139,7 +139,7 @@ json 형태로 출력
 
 
 
-![image-20210803020821152](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803020821152.png)
+![image-20210803020821152](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020821152.png)
 
 기본 정책 : responseBody가 오면 문자라면 String converter가, 다른 것들이면 json으로 바꿔서 전달
 

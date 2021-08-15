@@ -87,7 +87,7 @@ last_modified_at: 2021-08-06
 
   -> **Member Controller 가 Member Service를 의존한다.**
 
-  ![image-20210807000851293](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210807000851293.png)
+  ![image-20210807000851293](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210807000851293.png)
 
 스프링 컨테이너에서 스프링 빈이 관리된다.
 
@@ -95,7 +95,7 @@ last_modified_at: 2021-08-06
 
 helloController에 @controller 이런식으로 정의를 해주면 bean이 알아서 관리를 한다.(알아서 동작을 하게된다.)
 
-![image-20210807002942082](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210807002942082.png)
+![image-20210807002942082](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210807002942082.png)
 
 - **스프링 빈을 등록하는 2가지 방법**
 

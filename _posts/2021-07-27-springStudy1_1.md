@@ -21,7 +21,7 @@ last_modified_at: 2021-07-27
 
    - https://start.spring.io <- spring boot 만들어주는 사이트
 
-     ![image-20210727005538643](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727005538643.png)
+     ![image-20210727005538643](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727005538643.png)
 
      * project : 최근에는 Gradle Project 많이 사용 추세
      * Spring Boot : snapshot,m1 정식 릴리즈 아님. 정식 릴리즈 중 가장 최근 것 선택
@@ -29,7 +29,7 @@ last_modified_at: 2021-07-27
 
 2. 지정 경로에 알집을 풀고 IntelliJ IDEA 에서 열어준다
 
-   ![image-20210727010008101](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727010008101.png)
+   ![image-20210727010008101](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727010008101.png)
 
    * src -> main : java(실제 패키지와 소스파일 있음),resources
 
@@ -41,7 +41,7 @@ last_modified_at: 2021-07-27
 
      : 버전 설정, 라이브러리 가져옴
 
-     ![image-20210727010329255](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727010329255.png)
+     ![image-20210727010329255](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727010329255.png)
 
    * sourceCompatibility : 자바 버전
 
@@ -51,11 +51,11 @@ last_modified_at: 2021-07-27
 
 3. 일단 실행
 
-   ![image-20210727011317819](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727011317819.png)
+   ![image-20210727011317819](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727011317819.png)
 
 8080 포트에서 실행되는 것을 확인할 수 있다.
 
-![image-20210727011403093](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727011403093.png)
+![image-20210727011403093](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727011403093.png)
 
 웹 브라우저에서 해당 포트가 로컬에서 띄워졌음을 확인할 수 있다.
 
@@ -65,10 +65,8 @@ last_modified_at: 2021-07-27
 
 번외)) 빌드속도 빠르게 하기
 
-![image-20210727011823499](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727011823499.png)
+![image-20210727011823499](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727011823499.png)
 
 설정에서 gradle을 검색하고 빌드 설정을 IntelliJ로 변경한다.
 
 -> gradle을 통하지 않고 바로 자바를 통해서 빌드 되므로 속도가 빨라진다.
-
-## 

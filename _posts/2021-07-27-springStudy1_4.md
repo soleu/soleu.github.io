@@ -16,18 +16,18 @@ last_modified_at: 2021-07-27
 
 1. 서버를 멈춘다. (초록색 시작버튼으로 있어야 함)
 
-![image-20210727021808371](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727021808371.png)
+![image-20210727021808371](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727021808371.png)
 
 2. **윈도우 기준**
 
    cmd를 켜고, 해당 폴더가 있는 곳 까지 감
 
-   ![image-20210727022645430](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727022645430.png)
+   ![image-20210727022645430](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727022645430.png)
 
    - gradlew.bat build 실행
    - cd build/libs
 
-![image-20210727022805831](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210727022805831.png)
+![image-20210727022805831](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727022805831.png)
 
 - `hello-spring-0.0.1-SNAPSHOT.jar ` 부분을 복사해서 명령어 창에 붙여넣기
 

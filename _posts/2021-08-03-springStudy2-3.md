@@ -60,7 +60,7 @@ last_modified_at: 2021-08-03
 
   참고사항) 실행 우선순위
 
-  ![image-20210807031648506](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210807031648506.png)
+  ![image-20210807031648506](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210807031648506.png)
 
   요청을 받으면 스프링 컨테이너에서 해당 컨트롤러가 있는지 먼저 확인
 

@@ -26,7 +26,7 @@ last_modified_at: 2021-08-03
 
 
 
-![image-20210803025729222](C:\Users\이솔\OneDrive - catholic.ac.kr\바탕 화면\image-20210803025729222.png)
+![image-20210803025729222](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803025729222.png)
 
 [회원 도메인]
 
