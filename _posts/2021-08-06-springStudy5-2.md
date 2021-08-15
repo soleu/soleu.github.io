@@ -7,13 +7,13 @@ categories:
 
   - Spring
     tags:
-  - [Spring, SpringBoot]
+  - [Spring, SpringBoot,TestCase]
 
 toc: true
 toc_sticky: true
 
 date: 2021-08-06
-last_modified_at: 2020-08-06
+last_modified_at: 2021-08-06
 
 ---
 service 클래스 생성클래스

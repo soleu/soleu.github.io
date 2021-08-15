@@ -5,13 +5,13 @@ excerpt: "회원 리포지토리 테스트 케이스 작성법"
 categories:
   - Spring
 tags:
-  - [Spring, SpringBoot]
+  - [Spring, SpringBoot,TestCase]
 
 toc: true
 toc_sticky: true
  
 date: 2021-08-03
-last_modified_at: 2020-08-03
+last_modified_at: 2021-08-03
 
 
 ---

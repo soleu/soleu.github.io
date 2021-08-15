@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-07-27
-last_modified_at: 2020-07-27
+last_modified_at: 2021-07-27
 ---
 
 1. resources -> static 경로에 index.html 파일 생성

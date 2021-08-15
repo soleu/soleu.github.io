@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2021-08-03
-last_modified_at: 2020-08-03
+last_modified_at: 2021-08-03
 ---
 
 **Spring Study**  - 회원 관리 예제(2) - 회원 도메인과 리포지토리 만들기
