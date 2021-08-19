@@ -2,6 +2,8 @@
 
 - ### 테스트 하기
 
+- 회원 도메인 테스트
+
   - 순수 자바로 테스트하기
 
   
@@ -74,5 +76,37 @@
 
   
 
-  
+- 할인 및 주문 도메인 테스트
 
+  ![image-20210820030844301](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210820030844301.png)
+
+    order패키지 및 `OrderServiceTest`생성
+
+  - OrderServiceTest
+
+    ```java
+    package hello.core.order;
+    
+    import hello.core.member.Grade;
+    import hello.core.member.Member;
+    import hello.core.member.MemberService;
+    import hello.core.member.MemberServiceImpl;
+    import org.assertj.core.api.Assertions;
+    import org.junit.jupiter.api.Test;
+    
+    public class OrderServiceTest {
+        MemberService memberService = new MemberServiceImpl();
+        OrderService orderService =new OrderServiceImpl();
+    
+        @Test
+        void createOrder(){
+            Long memberId=1L;
+            Member member= new Member(memberId,"memberA", Grade.VIP);
+            memberService.join(member);
+            Order order =orderService.createOrder(memberId,"itemA",10000);
+            Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+        }
+    }
+    ```
+
+    test의 hello.core을 run해보면 회원 도메인까지 한번에 테스트 가능하다.
