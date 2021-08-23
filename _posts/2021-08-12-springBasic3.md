@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링의 기초(3)"
+excerpt: "스프링과 객체지향의 관계성"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-12
+last_modified_at: 2021-08-12
+---
+
 3. ## 스프링과 객체 지향의 관계성
 
 - ### 스프링의 다형성 보완
@@ -24,3 +40,4 @@
 
   => **기능을 확장할 가능성이 없다면**, **구체 클래스를 직접 사용**하고, 향후 꼭 **필요할 때 리팩토링**해서 인터페이스를 도입하는 것도 방법
 
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

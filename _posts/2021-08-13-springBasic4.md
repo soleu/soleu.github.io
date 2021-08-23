@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(1)"
+excerpt: "예제 만들기 - 프로젝트 생성"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-13
+last_modified_at: 2021-08-13
+---
+
 2. ## 스프링 핵심 원리 이해 1 - 예제 만들기
 
 - 기본 프로젝트 생성은 `spring 기초`에서와 같다.
@@ -36,4 +52,4 @@ intellij에서 **해당 경로에 build.gradle를 import해오는 방식**으로
 ![image-20210819025754497](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210819025754497.png)
 
 
-
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

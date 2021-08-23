@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(4)"
+excerpt: "예제 만들기- 비용 정책 변경"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-16
+last_modified_at: 2021-08-16
+---
+
 ## 3. 스프링 핵심 원리 이해 2 - 객체 지향 원리 적용
 
 - ### 새로운 할인 정책 개발
@@ -78,3 +94,5 @@
   
 
 - 다음장에서 인터페이스에만 의존하는 방향으로 구현하는 방법을 이야기해보자.
+
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

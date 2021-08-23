@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(5)"
+excerpt: "의존관계 주입(DI)"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-17
+last_modified_at: 2021-08-17
+---
+
 ## 3. 스프링 핵심 원리 이해 2 - 의존관계 주입(DI)
 
 - 인터페이스에만 의존하도록 설계 변경하기
@@ -141,4 +157,4 @@
 사용하는 구현체가 변경된다하더라도, 사용영역은 영향을 받지 않는다. 
 
 
-
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

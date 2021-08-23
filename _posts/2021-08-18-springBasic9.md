@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(6)"
+excerpt: "IoC, DI, Container"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-18
+last_modified_at: 2021-08-18
+---
+
 ## 3. 스프링 핵심 원리 이해 2 - IoC, DI, Container
 
 - #### 제어의 역전 IoC(Inversion of Control)
@@ -18,3 +34,4 @@
 
 - #### 컨테이너(Container)
 
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'
