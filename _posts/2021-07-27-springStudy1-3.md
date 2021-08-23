@@ -13,32 +13,32 @@ toc_sticky: true
 date: 2021-07-27
 last_modified_at: 2021-07-27
 ---
-
-1. resources -> static 경로에 index.html 파일 생성
-
+1. ## View 환경설정
+- ### resources -> static 경로에 index.html 파일 생성
+ 
     **(웰컴 페이지 경로 : `static/index.html`)**
 
    아래 코드 작성
 
-```
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Hello</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-Hello
-<a href="/hello">hello</a>
-</body>
-</html>
-```
+    ```
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+        <title>Hello</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+    Hello
+    <a href="/hello">hello</a>
+    </body>
+    </html>
+    ```
 
-다시 HelloSpringApplication을 run 하면, 로컬에서 실행화면이 바뀜
+    다시 HelloSpringApplication을 run 하면, 로컬에서 실행화면이 바뀜
 
-![image-20210727014755694](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727014755694.png)
+    ![image-20210727014755694](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210727014755694.png)
 
-2. thymeleaf 템플릿 엔진 사용방법
+- ### thymeleaf 템플릿 엔진 사용방법
 
    : 템플릿 엔진 - HTML을 원하는 모양대로 바꿀 수 있음.
 
@@ -89,7 +89,6 @@ Hello
 
   : `resources:templates/` +{viewName}+`.html` 
 
-번외)) 서버 재시작 없이 VIew 파일 변경하는 법
-
-`spring-boot-devtools` 라이브러리를 추가하면, `html` 파일을 컴파일만 해주면 서버 재시작없이 View 파일 변경 가능
+- 번외)) 서버 재시작 없이 VIew 파일 변경하는 법
+  `spring-boot-devtools` 라이브러리를 추가하면, `html` 파일을 컴파일만 해주면 서버 재시작없이 View 파일 변경 가능
 

@@ -14,52 +14,40 @@ date: 2021-08-03
 last_modified_at: 2021-08-03
 ---
 
-**Spring Study**  -간단한 웹 어플리케이션 개발(5) -스프링 웹 개발 기초
+## **Spring Study**  - 간단한 웹 어플리케이션 개발(5) -스프링 웹 개발 기초
 
-**[웹 어플리케이션의 종류]**
+- ### **[웹 어플리케이션의 종류]**
+  - 정적 컨텐츠
 
-- 정적 컨텐츠
-
-  : 파일을 **그대로** 웹에 내려주는 것
-
-  
-
-- MVC와 템플릿 엔진
-
-  템플릿 엔진 - **서버에서 동적**으로 프로그래밍을 해서 HTML로 주는 것
-
-  ex) php, jsp
-
-- **API**
-
-  : 클라이언트에게 json이라는 포맷으로 데이터를 전달.
-
-  서버끼리 통신할때.
+   : 파일을 **그대로** 웹에 내려주는 것
 
   
 
-  **[구현 방법]**
+  - MVC와 템플릿 엔진
+
+    템플릿 엔진 - **서버에서 동적**으로 프로그래밍을 해서 HTML로 주는 것
+
+    ex) php, jsp
+
+  - **API**
+    : 클라이언트에게 json이라는 포맷으로 데이터를 전달.
+    서버끼리 통신할때.
+
+- ### **[구현 방법]**
 
   1. 정적 컨텐츠
-
      ![image-20210803002006013](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803002006013.png)
+      static 폴더에 파일 생성.
 
-     
+      ![image-20210803002039281](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803002039281.png)
 
-  static 폴더에 파일 생성.
+      해당 경로로 들어가면 연결 됨
 
-  ![image-20210803002039281](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803002039281.png)
+      ![image-20210803002141082](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803002141082.png)
 
-  해당 경로로 들어가면 연결 됨
-
-![image-20210803002141082](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803002141082.png)
-
-2. MVC 와 템플릿 엔진
-
+  2. MVC 와 템플릿 엔진
    - MVC : Model,View,Controller
-
-     - Controller : 로직적인 부분
-
+   - Controller : 로직적인 부분
        ````
        ```java
        @Controller
@@ -93,17 +81,15 @@ last_modified_at: 2021-08-03
 
        
 
-![image-20210803015418611](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803015418611.png)
+    ![image-20210803015418611](C:\Users\이솔\AppData\Roaming\Typora\typora-user-images\image-20210803015418611.png)
 
-![image-20210803015435753](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803015435753.png)
+   ![image-20210803015435753](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803015435753.png)
 
-
-
-변환을 한다라는 점이 정적 컨텐츠와의 차이를 보인다.
+    변환을 한다라는 점이 정적 컨텐츠와의 차이를 보인다.
 
 
 
-3. API
+  3. API
 
    ```
       ```java
@@ -131,26 +117,22 @@ last_modified_at: 2021-08-03
 
    
 
-![image-20210803020638465](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020638465.png)
+    ![image-20210803020638465](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020638465.png)
+
+    json 형태로 출력
 
 
 
-json 형태로 출력
+    ![image-20210803020821152](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020821152.png)
 
+    기본 정책 : responseBody가 오면 문자라면 String converter가, 다른 것들이면 json으로 바꿔서 전달
 
+    `@ResponseBody` 사용
 
-![image-20210803020821152](https://raw.githubusercontent.com/soleu/image_repo/main/img/image-20210803020821152.png)
+    - HTTP의 BODY에 문자 내용을 직접 반환
+    - `viewResolver` 대신에 `HttpMessageConverter`가 동작
+    - 기본 문자처리 : `StringHttpMessageConverter`
+    - 기본 객체처리: `MappingJackson2HttpMessageConverter`
+    - byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어있음
 
-기본 정책 : responseBody가 오면 문자라면 String converter가, 다른 것들이면 json으로 바꿔서 전달
-
-`@ResponseBody` 사용
-
-- HTTP의 BODY에 문자 내용을 직접 반환
-- `viewResolver` 대신에 `HttpMessageConverter`가 동작
-- 기본 문자처리 : `StringHttpMessageConverter`
-- 기본 객체처리: `MappingJackson2HttpMessageConverter`
-- byte 처리 등등 기타 여러 HttpMessageConverter가 기본으로 등록되어있음
-
-
-
- 참고) ctrl+n : Getter and Setter 빨리 가져올 수 있음
+  - ### 참고) ctrl+n : Getter and Setter 빨리 가져올 수 있음
