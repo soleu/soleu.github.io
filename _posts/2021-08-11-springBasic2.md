@@ -1,3 +1,21 @@
+---
+title:  "[Spring Basic]  - 스프링의 기초(2)"
+excerpt: "객체지향 프로그래밍"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-11
+last_modified_at: 2021-08-11
+---
+
+
+
 2. ## 객체 지향 프로그래밍
 
 - ### 객체 지향 프로그래밍
@@ -91,3 +109,5 @@
     -> **OCP, DIP 위배**
 
   - 다형성 이외의 것으로 객체지향을 이루어 낼 수 없다.
+
+  참고 : 김영한 - '스프링 핵심 원리 - 기본편'

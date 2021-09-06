@@ -1,4 +1,19 @@
-- EJB 엔티티빈 -> 하이버네이트 -> JPA
+---
+title:  "[Spring Basic]  - 스프링의 기초(1)"
+excerpt: "스프링이란"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-10
+last_modified_at: 2021-08-10
+---
+
 
   1. ## **스프링(Spring)**
 
@@ -35,3 +50,4 @@
     - 자바 언어의 가장 큰 특징 - **객체 지향 언어**
     - 스프링은 **좋은 객체 지향** 애플리케이션을 개발할 수 있게 도와주는 프레임워크  
 
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

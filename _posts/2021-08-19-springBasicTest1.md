@@ -1,5 +1,19 @@
-2. ## 스프링 핵심 원리 이해 1 - 예제 만들기
+---
+title:  "[Spring Basic]  - 테스트 하기(1)"
+excerpt: "테스트의 종류 및 방법"
 
+categories:
+  - SpringBasic
+  - SpringTest
+tags:
+  - [Spring, SpringBoot,Test,Testcase]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-19
+last_modified_at: 2021-08-19
+---
 - ### 테스트 하기
 
 - 회원 도메인 테스트
@@ -111,5 +125,5 @@
 
     test의 hello.core을 run해보면 회원 도메인까지 한번에 테스트 가능하다.
 
-
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'
 

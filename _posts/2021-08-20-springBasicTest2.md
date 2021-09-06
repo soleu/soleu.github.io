@@ -1,5 +1,19 @@
-2. ## 스프링 핵심 원리 이해 1 - 예제 만들기
+---
+title:  "[Spring Basic]  - 테스트 하기(2)"
+excerpt: "테스트 케이스 코드 작성 방법"
 
+categories:
+  - SpringBasic
+  - SpringTest
+tags:
+  - [Spring, SpringBoot,Test,Testcase]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-20
+last_modified_at: 2021-08-20
+---
 - ### 테스트 하기
 
 - #### 코드를 짜며 테스트 해보기
@@ -59,3 +73,5 @@ class RateDiscountPolicyTest {
 - given : 테스트를 위해 준비하는 과정 (**변수, 입력 값 등 정의**)
 - when :실제로 액션을 하는 테스트를 실행하는 과정 (**메서드 실행**)
 - then : 테스트를 검증하는 과정 (예상한 값, 실제 실행을 통해서 **나온 값을** **검증**)
+
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'

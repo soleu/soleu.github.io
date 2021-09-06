@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(3)"
+excerpt: "예제 만들기- 주문과 할인 도메인 설계"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-15
+last_modified_at: 2021-08-15
+---
+
 2. ## 스프링 핵심 원리 이해 1 - 예제 만들기
 
 - ### 주문과 할인 도메인 설계
@@ -171,3 +187,5 @@
     ```
 
   이렇게 하면 주문과 할인 도메인 개발도 완성이다. 이제 만든 도메인을 테스트해보자.
+
+  참고 : 김영한 - '스프링 핵심 원리 - 기본편'

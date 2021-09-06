@@ -1,3 +1,19 @@
+---
+title:  "[Spring Basic]  - 스프링 핵심 원리 이해(2)"
+excerpt: "예제 만들기- 회원 도메인 설계"
+
+categories:
+  - SpringBasic
+tags:
+  - [Spring, SpringBoot]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-08-14
+last_modified_at: 2021-08-14
+---
+
 2. ## 스프링 핵심 원리 이해 1 - 예제 만들기
 
 - ### 비즈니스 요구사항과 설계
@@ -164,3 +180,5 @@
   
 
 이렇게 하면 회원 도메인 개발이 완성되었다. 이제 주문과 할인 도메인을 개발하여야한다.
+
+참고 : 김영한 - '스프링 핵심 원리 - 기본편'
